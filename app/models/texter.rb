@@ -1,0 +1,2 @@
+class Texter < ApplicationRecord
+end

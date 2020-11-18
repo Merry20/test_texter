@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Client name:</strong>
+  <%= @texter.client_name %>
+</p>
+
+<p>
+  <strong>Message description:</strong>
+  <%= @texter.message_description %>
+</p>
+
+<%= link_to 'Edit', edit_texter_path(@texter) %> |
+<%= link_to 'Back', texters_path %>
